@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>fbfrom</title>
+	<link rel="stylesheet" href="css/fbfrom.css">
+</head>
+<body>
+	<div class="wrapper">
+		<from action="#" method="get" enctype="multipart/from-data">
+
+			<label for="first_name">First Name:</label> <br>
+			<input type="text" placeholder="type your first name" name="frist_name" id="first_name" class="frist_name">
+
+			<br><br>
+			<label for="last_name">last Name:</label> <br>
+			<input type="text" placeholder="type your last name" name="last_name" id="last_name" class="last_name">
+		
+		<br><br>
+		<label for="email">Email Address:</label> <br>
+			<input type="email" placeholder="type your email address" name="email" id="email" class="email">
+
+			<br><br>
+			<label for="password">Password:</label> <br>
+			<input type="password" placeholder="type your password" name="password" id="password" class="password">
+
+			<label for ="gender">Gender</label>
+			<input type="radio" value="Male" name="gender" id="gender" class="gender"><span>male</span>
+			<input type="radio" value="FeMale" name="gender" id="gender" class="gender"><span>female</span>
+
+			<br></br>
+			<label for ="">Education Qualification</label>
+			<input type="checkbox" value="ssc" name=""><span>SSC</span>
+			<input type="checkbox" value="ssc" name=""><span>HSC</span>
+
+			<br></br>
+
+			<label for="message">Your Massage:</label> <br>
+			<textarea cols="73" rows="10" placeholder="Type your Message here" name="message" id="message" class="message"></textarea>
+
+			<br></br>
+
+			<button type="submit">Click Me</button>
+			<button type="reset">Reset Me</button>
+		</from>
+
+	</div>
+</body>
+</html>
